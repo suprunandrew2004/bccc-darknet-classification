@@ -1,0 +1,9 @@
+# исходные наборы данных не публикуются (см. README)
+data/*.csv
+data_ss/
+# промежуточные файлы
+results/*.npy
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/

@@ -1,0 +1,552 @@
+{
+ "overlap": {
+  "n_tuples": 3586,
+  "n_rows": 17679,
+  "crosstab": {
+   "Freenet": {
+    "FREENET": 363,
+    "I2P": 0,
+    "TOR": 0,
+    "ZERONET": 0
+   },
+   "I2P": {
+    "FREENET": 0,
+    "I2P": 7153,
+    "TOR": 145,
+    "ZERONET": 175
+   },
+   "Tor": {
+    "FREENET": 0,
+    "I2P": 41,
+    "TOR": 2414,
+    "ZERONET": 16
+   },
+   "Zeronet": {
+    "FREENET": 0,
+    "I2P": 23,
+    "TOR": 6,
+    "ZERONET": 7343
+   }
+  },
+  "agree_share": 0.9770349001640364,
+  "rows_2020_hosts": 62739,
+  "rows_2020_hosts_by_class": {
+   "I2P": 22864,
+   "Freenet": 19272,
+   "Zeronet": 14736,
+   "Tor": 5867
+  },
+  "protocol_by_class": {
+   "0": {
+    "Freenet": 172,
+    "I2P": 160,
+    "Tor": 1673,
+    "VPN": 1339,
+    "Zeronet": 259
+   },
+   "6": {
+    "Freenet": 406,
+    "I2P": 10482,
+    "Tor": 5613,
+    "VPN": 0,
+    "Zeronet": 14612
+   },
+   "17": {
+    "Freenet": 25706,
+    "I2P": 12316,
+    "Tor": 5260,
+    "VPN": 2778,
+    "Zeronet": 10628
+   }
+  }
+ },
+ "evidence": {
+  "n_tuples": 3586,
+  "years_bccc": {
+   "2020": 17679
+  },
+  "years_ss": {
+   "2025": 17679
+  },
+  "shift7_share_tuples": 0.9818739542665923,
+  "exact_tuples": 2443,
+  "exact_share": 0.6812604573340769,
+  "exact_flows": 2473,
+  "capture_host_tuples": 3586,
+  "rdp_ssh_tuples": 1631,
+  "iat_artifact_flows": 245,
+  "iat_artifact_stamp_4h": 0.9959183673469387,
+  "iat_ss_above_duration": 0,
+  "examples": [
+   {
+    "Src IP": "120.72.106.146",
+    "Src Port": "65112",
+    "Dst IP": "172.24.216.110",
+    "Dst Port": "3389",
+    "t_b": "2020-04-03 04:01:32.688794",
+    "Timestamp": "3/4/2025 11:01",
+    "duration": "3.410717010498047",
+    "Flow Duration": "3410717",
+    "packets_count": "18",
+    "pk_s": "18",
+    "label": "TOR",
+    "Label": "Tor"
+   },
+   {
+    "Src IP": "5.183.92.235",
+    "Src Port": "64838",
+    "Dst IP": "172.24.216.110",
+    "Dst Port": "3389",
+    "t_b": "2020-04-03 02:11:31.413782",
+    "Timestamp": "3/4/2025 9:11",
+    "duration": "2.5846991539001465",
+    "Flow Duration": "2584699",
+    "packets_count": "15",
+    "pk_s": "15",
+    "label": "TOR",
+    "Label": "Tor"
+   },
+   {
+    "Src IP": "185.107.45.110",
+    "Src Port": "65440",
+    "Dst IP": "172.24.216.110",
+    "Dst Port": "3389",
+    "t_b": "2020-04-10 01:19:25.712283",
+    "Timestamp": "10/4/2025 8:19",
+    "duration": "3.504103183746338",
+    "Flow Duration": "3504103",
+    "packets_count": "18",
+    "pk_s": "18",
+    "label": "ZERONET",
+    "Label": "Zeronet"
+   },
+   {
+    "Src IP": "172.24.216.110",
+    "Src Port": "55518",
+    "Dst IP": "24.144.54.251",
+    "Dst Port": "32093",
+    "t_b": "2020-04-21 00:27:22.437723",
+    "Timestamp": "21/04/2025 07:27:22 AM",
+    "duration": "88.42283296585083",
+    "Flow Duration": "88422833",
+    "packets_count": "1039",
+    "pk_s": "1039",
+    "label": "ZERONET",
+    "Label": "Zeronet"
+   },
+   {
+    "Src IP": "212.92.115.77",
+    "Src Port": "60094",
+    "Dst IP": "172.24.216.110",
+    "Dst Port": "3389",
+    "t_b": "2020-04-03 02:11:27.030281",
+    "Timestamp": "3/4/2025 9:11",
+    "duration": "2.937680959701538",
+    "Flow Duration": "2937681",
+    "packets_count": "15",
+    "pk_s": "15",
+    "label": "TOR",
+    "Label": "Tor"
+   },
+   {
+    "Src IP": "185.202.2.155",
+    "Src Port": "49186",
+    "Dst IP": "172.24.216.110",
+    "Dst Port": "3389",
+    "t_b": "2020-04-03 07:15:51.640006",
+    "Timestamp": "4/3/2025 14:15",
+    "duration": "5.293390989303589",
+    "Flow Duration": "5293391",
+    "packets_count": "19",
+    "pk_s": "19",
+    "label": "I2P",
+    "Label": "I2P"
+   }
+  ]
+ },
+ "cic_defects": {
+  "inf_rows": 50,
+  "nan_rows": 11,
+  "negative_rows": 287,
+  "iat_above_duration_rows": 394,
+  "iat_max_s": 1202.151404,
+  "identical_columns": [
+   [
+    "Tot Fwd Pkts",
+    "Subflow Fwd Pkts"
+   ],
+   [
+    "Tot Bwd Pkts",
+    "Subflow Bwd Pkts"
+   ],
+   [
+    "Bwd PSH Flags",
+    "PSH Flag Cnt"
+   ],
+   [
+    "CWE Flag Count",
+    "ECE Flag Cnt"
+   ]
+  ],
+  "duration_q99_s": 119.98694108,
+  "duration_over_120s": 311,
+  "flag_max": {
+   "FIN Flag Cnt": 1,
+   "SYN Flag Cnt": 1,
+   "PSH Flag Cnt": 1,
+   "ACK Flag Cnt": 1,
+   "RST Flag Cnt": 1
+  },
+  "flag_zero_share_tcp3": {
+   "FIN Flag Cnt": 0.5738305750774578,
+   "SYN Flag Cnt": 0.6142975893599335,
+   "PSH Flag Cnt": 0.8388120607571979,
+   "ACK Flag Cnt": 0.790977102697801,
+   "RST Flag Cnt": 0.9977329403763319
+  },
+  "n_tcp3": 26466
+ },
+ "l2_random_raw": {
+  "f1_macro": 0.9350846066648616,
+  "bacc": 0.9428271581694906,
+  "accuracy": 0.9367642553936371,
+  "per_class_f1": [
+   0.8702887909936368,
+   0.9193389082768157,
+   0.9542124903745532,
+   0.9642407697818048,
+   0.967342073897497
+  ],
+  "per_class_precision": [
+   0.8247341754085492,
+   0.9265584214484803,
+   0.9608716398918403,
+   0.9816690976465486,
+   0.9496840627194009
+  ],
+  "per_class_recall": [
+   0.9211700940538817,
+   0.9122310305775765,
+   0.9476450056864975,
+   0.9474204839446051,
+   0.985669176584892
+  ],
+  "fold_f1_mean": 0.9350849990333845,
+  "fold_f1_std": 0.0018355620313631458,
+  "n": 91404,
+  "time_s": 98.06753182411194
+ },
+ "l2_info": {
+  "n_raw": 91404,
+  "raw_counts": {
+   "Freenet": 26284,
+   "Zeronet": 25499,
+   "I2P": 22958,
+   "Tor": 12546,
+   "VPN": 4117
+  },
+  "n_background": 5581,
+  "n_dup": 20815,
+  "n_conflict_vectors": 318,
+  "n_after": 65008,
+  "n_features": 72,
+  "dropped_const": [
+   "Fwd PSH Flags",
+   "Fwd URG Flags",
+   "Bwd URG Flags",
+   "URG Flag Cnt"
+  ],
+  "class_counts": {
+   "Freenet": 21757,
+   "Zeronet": 18596,
+   "I2P": 12294,
+   "Tor": 9829,
+   "VPN": 2532
+  },
+  "n_groups": 3348
+ },
+ "l2_random_clean": {
+  "f1_macro": 0.9398140479444297,
+  "bacc": 0.9474033165137771,
+  "accuracy": 0.9447914102879645,
+  "per_class_f1": [
+   0.9017831043554516,
+   0.921141830358966,
+   0.9609528685763561,
+   0.9642271854661235,
+   0.950965250965251
+  ],
+  "per_class_precision": [
+   0.8651958493035431,
+   0.9249569425079964,
+   0.9631070058877546,
+   0.9826311017798349,
+   0.9301359516616314
+  ],
+  "per_class_recall": [
+   0.9416013836605962,
+   0.9173580608426875,
+   0.9588083458808346,
+   0.9464999770188904,
+   0.9727488151658767
+  ],
+  "fold_f1_mean": 0.9398258397187499,
+  "fold_f1_std": 0.0035540065116405266,
+  "n": 65008,
+  "time_s": 81.56893229484558
+ },
+ "l2_group": {
+  "f1_macro": 0.7120096137142251,
+  "bacc": 0.7132294405276116,
+  "accuracy": 0.8394659118877676,
+  "per_class_f1": [
+   0.6093687288572903,
+   0.8418735760898945,
+   0.9121633880206308,
+   0.9377831753001075,
+   0.2588592003032026
+  ],
+  "per_class_precision": [
+   0.6981082501313716,
+   0.8013673454385062,
+   0.8804222744784109,
+   0.9532785717677223,
+   0.248816029143898
+  ],
+  "per_class_recall": [
+   0.5406450300132262,
+   0.8866926956238815,
+   0.9462787696278769,
+   0.9227834719860275,
+   0.2697472353870458
+  ],
+  "fold_f1_mean": 0.7234512506755783,
+  "fold_f1_std": 0.08056305355197858,
+  "n": 65008,
+  "time_s": 77.12891817092896
+ },
+ "l2_new_hosts": {
+  "f1_macro": 0.7005838248792629,
+  "bacc": 0.6939685299971379,
+  "accuracy": 0.7988679690263748,
+  "per_class_f1": [
+   0.7212577160493827,
+   0.8722070122758986,
+   0.9301320157492473,
+   0.2787385554425229
+  ],
+  "per_class_precision": [
+   0.9555328392537695,
+   0.7874342210173816,
+   0.9123125851885506,
+   0.28745279060008394
+  ],
+  "per_class_recall": [
+   0.5792408985282727,
+   0.9774346793349169,
+   0.9486614173228346,
+   0.2705371248025277
+  ],
+  "fold_f1_mean": 0.7263182357158584,
+  "fold_f1_std": 0.14142168563594956,
+  "n": 25441,
+  "time_s": 33.72000432014465,
+  "classes": [
+   "Tor",
+   "Zeronet",
+   "Freenet",
+   "VPN"
+  ],
+  "class_counts": {
+   "Zeronet": 10104,
+   "Tor": 6455,
+   "Freenet": 6350,
+   "VPN": 2532
+  }
+ },
+ "l2_stand_bacc": 0.9031139171213004,
+ "l2_tor_cross_host": {
+  "new_to_old": {
+   "n": 3374,
+   "pred": {
+    "Tor": 52,
+    "I2P": 1367,
+    "Zeronet": 1037,
+    "Freenet": 766,
+    "VPN": 152
+   }
+  },
+  "old_to_new": {
+   "n": 6455,
+   "pred": {
+    "Tor": 1141,
+    "I2P": 2737,
+    "Zeronet": 835,
+    "Freenet": 235,
+    "VPN": 1507
+   }
+  }
+ },
+ "l1_random_raw": {
+  "f1_macro": 0.9879545980583886,
+  "bacc": 0.9891999913668086,
+  "accuracy": 0.988853490596615,
+  "per_class_f1": [
+   0.9912451180667233,
+   0.9846640780500538
+  ],
+  "per_class_precision": [
+   0.9945612898402652,
+   0.9789463439953286
+  ],
+  "per_class_recall": [
+   0.9879509870660313,
+   0.9904489956675857
+  ],
+  "fold_f1_mean": 0.9879546568425239,
+  "fold_f1_std": 0.0004257410308732516,
+  "n": 252994,
+  "time_s": 46.05585193634033
+ },
+ "l1_info": {
+  "n_raw": 252994,
+  "raw_counts": {
+   "Normal": 161590,
+   "Darknet": 91404
+  },
+  "n_background": 5581,
+  "n_dup": 128944,
+  "n_conflict_vectors": 53,
+  "n_after": 118469,
+  "n_features": 72,
+  "dropped_const": [
+   "Fwd PSH Flags",
+   "Fwd URG Flags",
+   "Bwd URG Flags",
+   "URG Flag Cnt"
+  ],
+  "class_counts": {
+   "Darknet": 65008,
+   "Normal": 53461
+  }
+ },
+ "l1_random_clean": {
+  "f1_macro": 0.9833784603934219,
+  "bacc": 0.9832724835093514,
+  "accuracy": 0.9835399978053331,
+  "per_class_f1": [
+   0.9817398632830789,
+   0.9850170575037649
+  ],
+  "per_class_precision": [
+   0.982954865082788,
+   0.9840190359226282
+  ],
+  "per_class_recall": [
+   0.9805278614316979,
+   0.9860171055870047
+  ],
+  "fold_f1_mean": 0.9833784858740888,
+  "fold_f1_std": 0.0006564161647873092,
+  "n": 118469,
+  "time_s": 26.078761100769043
+ },
+ "l1_group": {
+  "f1_macro": 0.7792223653600703,
+  "bacc": 0.7760930357058977,
+  "accuracy": 0.7935493673450439,
+  "per_class_f1": [
+   0.7229810850605958,
+   0.8354636456595447
+  ],
+  "per_class_precision": [
+   0.9163628011140141,
+   0.7424079387852702
+  ],
+  "per_class_recall": [
+   0.5969959409663119,
+   0.9551901304454836
+  ],
+  "fold_f1_mean": 0.8080723763482658,
+  "fold_f1_std": 0.2813792098342291,
+  "n": 118469,
+  "time_s": 24.73542022705078
+ },
+ "l1_normal_host_share": 0.9761134284805746,
+ "l1_darknet_host_share": 0.00027688899827713515,
+ "transfer": {
+  "features": [
+   "dur",
+   "pkts",
+   "bytes",
+   "len_max",
+   "len_mean",
+   "len_std",
+   "pkt_rate",
+   "byte_rate",
+   "iat_mean",
+   "iat_std",
+   "iat_max",
+   "iat_min"
+  ],
+  "bccc_group": {
+   "f1_macro": 0.5968046435788881,
+   "bacc": 0.6081339057404271,
+   "n": 3849,
+   "per_class_f1": {
+    "Tor": 0.535,
+    "I2P": 0.673,
+    "ZeroNet": 0.734,
+    "Freenet": 0.223,
+    "VPN": 0.819
+   }
+  },
+  "ss_group": {
+   "f1_macro": 0.6763030410534285,
+   "bacc": 0.6777067533825105,
+   "n": 65008,
+   "per_class_f1": {
+    "Tor": 0.569,
+    "I2P": 0.804,
+    "ZeroNet": 0.856,
+    "Freenet": 0.933,
+    "VPN": 0.219
+   }
+  },
+  "bccc_to_ss_new": {
+   "f1_macro": 0.2085325223638926,
+   "bacc": 0.2132842408051788,
+   "n": 25441,
+   "per_class_f1": {
+    "Tor": 0.254,
+    "ZeroNet": 0.347,
+    "Freenet": 0.006,
+    "VPN": 0.228
+   }
+  },
+  "bccc_to_ss_all": {
+   "f1_macro": 0.22789580446274585,
+   "bacc": 0.30354878693147597,
+   "n": 65008,
+   "per_class_f1": {
+    "Tor": 0.277,
+    "I2P": 0.339,
+    "ZeroNet": 0.386,
+    "Freenet": 0.013,
+    "VPN": 0.125
+   }
+  },
+  "ss_new_to_bccc": {
+   "f1_macro": 0.1581087926349043,
+   "bacc": 0.1835782252608865,
+   "n": 3849,
+   "per_class_f1": {
+    "Tor": 0.19,
+    "I2P": 0.0,
+    "ZeroNet": 0.467,
+    "Freenet": 0.004,
+    "VPN": 0.13
+   }
+  }
+ }
+}

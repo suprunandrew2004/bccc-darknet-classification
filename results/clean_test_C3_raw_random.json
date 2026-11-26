@@ -1,0 +1,7 @@
+{
+ "n_variant": 7485,
+ "f1_clean_test": 0.7121913962268189,
+ "f1_own_features_same_flows": 0.8810317868224328,
+ "n_own": 3849,
+ "freenet_f1_clean": 0.56
+}
